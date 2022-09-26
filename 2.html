@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>tabele</title>
+        <style>
+            table,td,th{
+                font-family: arial, sans-serif;
+                border: 1px saddlebrown solid;
+            }
+            table{
+                width: 500px;
+                margin: auto;
+                text-align: center;
+                border-collapse: collapse;
+            }
+            td{
+                text-align: left;
+            }
+            td.first{
+                text-align: center;
+            }
+            th{
+                background-color: lightgray;
+            }
+            tr:nth-child(odd) {
+                background-color: #dddddd;
+            }
+            td,th{
+                padding: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tabelki</h1>
+        <table>
+            <tr>
+                <th>lp</th>
+                <th>imie</th>
+                <th>nazwisko</th>
+            </tr>
+            <tr>
+                <td class="first">1</td>
+                <td>Robert</td>
+                <td>Małecki</td>
+            </tr>
+            <tr>
+                <td class="first">2</td>
+                <td>Katarzyna</td>
+                <td>Małecka</td>
+            </tr>
+            <tr>
+                <td class="first">3</td>
+                <td>Monika</td>
+                <td>Małecka</td>
+            </tr>
+            <tr>
+                <td class="first">4</td>
+                <td>Tomasz</td>
+                <td>Kowalski</td>
+            </tr>
+            <tr>
+                <td class="first">5</td>
+                <td>Andrzej</td>
+                <td>Kowalski</td>
+            </tr>
+            <tr>
+                <td class="first">6</td>
+                <td>Adrian</td>
+                <td>Kowalski</td>
+            </tr>
+        </table>
+    </body>
+</html>
